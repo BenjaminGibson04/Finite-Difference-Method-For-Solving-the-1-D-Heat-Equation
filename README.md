@@ -13,3 +13,5 @@ We find data points on the mesh with the following:
 
 $$u_{j+1,m} = \mu u_{j,m+1}+(1-2\mu )u_{j,m} + \mu u_{j,m-1}$$
 $$\mu = \gamma \frac{\Delta t}{(\Delta x)^2}$$
+
+For a stable solution it must be that $`\Delta t \leq \frac{(\Delta x)^2}{2\gamma}`$.
