@@ -3,7 +3,6 @@ This explicit numerical method finds numerical solutions to the one-dimensional 
 
 Code written in Matlab
 
-Consider the one-dimensional heat equation $`\frac{\partial u}{\partial t} = \gamma\frac{\partial^2 u}{\partial x^2}`$.
-Over a rectangular mesh of nodes $`(t_j,x_m)`$, initial conditions and boundary conditions
+Consider the one-dimensional heat equation $`\frac{\partial u}{\partial t} = \gamma\frac{\partial^2 u}{\partial x^2}`$ over a rectangular mesh of nodes $`(t_j,x_m)`$, with initial conditions and boundary conditions
 
-$$'u'$$
+$$`u_{0,m} = f(x_m)`$$
