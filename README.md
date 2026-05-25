@@ -15,3 +15,5 @@ $$u_{j+1,m} = \mu u_{j,m+1}+(1-2\mu )u_{j,m} + \mu u_{j,m-1}$$
 $$\mu = \gamma \frac{\Delta t}{(\Delta x)^2}$$
 
 For a stable solution it must be that $`\Delta t \leq \frac{(\Delta x)^2}{2\gamma}`$.
+
+A simple example showing how the method works is provided under PDE_FiniteDiff_Test.m. It shows solutions for time steps with stable and unstable solutions. The sample uses constant boundary conditions for simplicity, however the method works for non-constant boundary conditions. 
