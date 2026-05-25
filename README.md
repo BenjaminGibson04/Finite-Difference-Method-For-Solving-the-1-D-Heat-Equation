@@ -16,4 +16,4 @@ $$\mu = \gamma \frac{\Delta t}{(\Delta x)^2}$$
 
 For a stable solution it must be that $`\Delta t \leq \frac{(\Delta x)^2}{2\gamma}`$.
 
-A simple example showing how the method works is provided under PDE_FiniteDiff_Test.m. It shows solutions for time steps with stable and unstable solutions. The sample uses constant boundary conditions for simplicity, however the method works for non-constant boundary conditions. 
+A simple example showing how the method works is provided under PDE_FiniteDiff_Test.m. It shows solutions for time steps with stable and unstable solutions. The sample uses constant boundary conditions for simplicity to demonstarate stable and unstable solutions with the different time steps, however the method works for non-constant boundary conditions. 
