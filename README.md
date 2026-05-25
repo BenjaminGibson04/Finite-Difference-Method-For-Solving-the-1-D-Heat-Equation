@@ -12,4 +12,4 @@ $$u_{j,n} = p(t_j)$$
 We find data points on the mesh with the following:
 
 $$u_{j+1,m} = \mu u_{j,m+1}+(1-2\mu )u_{j,m} + \mu u_{j,m-1}$$
-$$\mu = \gamma \frac{\Delta t}{(\Delta x)^2}
+$$\mu = \gamma \frac{\Delta t}{(\Delta x)^2}$$
